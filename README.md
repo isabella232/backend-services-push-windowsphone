@@ -1,4 +1,2 @@
 backend-services-push-windowsphone
 ==================================
-
-
