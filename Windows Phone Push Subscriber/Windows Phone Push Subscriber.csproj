@@ -180,7 +180,7 @@
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <Private>True</Private>
     </Reference>
-    <Reference Include="Telerik.Everlive.Sdk.WindowsPhone8, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.Everlive.Sdk.WindowsPhone8, Version=2015.12.2.5, Culture=neutral, PublicKeyToken=b28c218413bdf563, processorArchitecture=MSIL" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />

@@ -18,9 +18,9 @@ namespace PushTestApp
 		{
 			InitializeComponent();
 
-			if (string.IsNullOrWhiteSpace(ConnectionSettings.EverliveApiKey) || ConnectionSettings.EverliveApiKey == "your-api-key-here")
+			if (string.IsNullOrWhiteSpace(ConnectionSettings.TelerikPlatformAppId) || ConnectionSettings.TelerikPlatformAppId == "your-app-id-here")
 			{
-				MessageBox.Show("Hi there!\n\nBefore you can use this demo, you must insert your API key in the code.\n\nPlease go to ConnectionSettings.cs and put the API key for your Everlive application.", "API Key needed", MessageBoxButton.OK);
+				MessageBox.Show("Hi there!\n\nBefore you can use this demo, you must insert your App ID in the code.\n\nPlease go to ConnectionSettings.cs and put the App ID for your Everlive application.", "App ID needed", MessageBoxButton.OK);
 				this.ContentPanel.Visibility = Visibility.Collapsed;
 				ConnectionSettings.ThrowError();
 			}
@@ -29,7 +29,7 @@ namespace PushTestApp
 				//Initialize the connection to the Everlive service
 				var settings = new EverliveAppSettings()
 				{
-					ApiKey = ConnectionSettings.EverliveApiKey,
+					ApiKey = ConnectionSettings.TelerikPlatformAppId,
 					UseHttps = ConnectionSettings.EverliveUseHttps,
 					DateTimeUnspecifiedHandling = DateTimeUnspecifiedHandling.TreatAsUtc
 				};

@@ -11,12 +11,12 @@ namespace PushTestApp
 		/// <summary>
 		/// Input your API key below to connect to your own app.
 		/// </summary>
-		public static string EverliveApiKey = "your-api-key-here";
+		public static string TelerikPlatformAppId = "your-app-id-here";
 
 		public static void ThrowError()
 		{
 			throw new Exception(
-				"Please fill in your API key above and restart the app."
+				"Please fill in your App ID above and restart the app."
 			);
 		}
 
