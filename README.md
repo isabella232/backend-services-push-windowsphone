@@ -1,6 +1,5 @@
 # Basic Push Notifications Sample App for Windows Phone
 
-<a href="https://github.com/telerik/backend-services-push-windowsphone" target="_blank"><img style="padding-left:20px" src="http://docs.telerik.com/platform/samples/images/get-github.png" alt="Get from GitHub" title="Get from GitHub"></a>
 
 <a id="top"></a>
 * [Overview](#overview)
@@ -10,12 +9,9 @@
 
 # Overview
 
-This repository contains a basic sample app that can receive push notifications sent from its Telerik Platform. It is a native app built using .NET and Visual Studio.
+This repository contains a basic sample app that can receive push notifications sent from its Telerik Platform backend. It is a native app built using .NET and Visual Studio.
 
-The sample app utilizes the following Telerik products and SDKs:
-
-- [Telerik Platform backend](http://docs.telerik.com/platform/backend-services/)&mdash;this is the backend of Telerik Platform where you can store data, files, and user accounts as well as set up and send push notifications
-- [Telerik Platform backend .NET SDK](http://docs.telerik.com/platform/backend-services/dotnet/getting-started-dotnet-sdk)&mdash;to connect the app to Telerik Backend Services
+The sample app utilizes the [Telerik Platform backend .NET SDK](http://docs.telerik.com/platform/backend-services/dotnet/getting-started-dotnet-sdk) to connect the app to Telerik Platform.
 
 # Requirements
 
