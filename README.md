@@ -27,7 +27,7 @@ Ensure that you can log in to a Telerik Platform account. This can be a free tri
 The sample app comes fully functional, but to see it in action you must link it to your own Telerik Platform account.
 
 1. Open your Telerik Platform application and go to **Settings**.
-2. Take note of your App ID.
+2. Take note of your **App ID**.
 3. Open the `Windows Phone Push Subscriber/ConnectionSettings.cs` file in Visual Studio.
 4. Find the `TelerikPlatformAppId` literal and replace its value with the actual App ID that you acquired earlier.
 5. Finally, set up push notifications in your application as explained in [Enabling Push Notifications](http://docs.telerik.com/platform/backend-services/dotnet/push-notifications/push-enabling).
