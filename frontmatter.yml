@@ -5,3 +5,4 @@ publish: true
 page_title: Basic Push Notifications Sample App for Windows Phone | Telerik Platform
 description: A simple native Windows Phone mobile app that has the single purpose of receiving push notifications sent from Telerik Platform.
 tags: Telerik, Sample App, Application, Windows Phone, C#, .NET, push, notifications, BaaS
+repo_kind: "Windows Phone Native"
